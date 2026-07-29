@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100px;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    width: 100vw;
+    padding: 10px;
+    margin-top: 20px;
+}
+section{
+    height: 300px;
+    border-radius: 20px;
+    transition: transform 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+h2{
+    font-size: 400%;
+    transition: font-size 1s;
+}
+section:hover {
+    transform: scale(1.1);
+}
+section:hover h2 {
+    font-size: 250%;
+}
+#html{
+    background-color:#f2672e ;
+}
+#css{
+    background-color: aqua;
+}
+#jscript{
+    background-color: #f2bf26;
+}

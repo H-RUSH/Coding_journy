@@ -1,12 +1,17 @@
+/* here is the index.html part  */
+body{
+    background-color: #3790f0;
+}
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #111827;
     height: 100px;
     width: auto;
-    background-color: black;
+    background-color:#111827;
     color: white;
+    border-radius: 10px;
 }
 main{
     display: grid;
@@ -47,4 +52,22 @@ section:hover h2 {
 }
 #jscript{
     background-color: #f2bf26;
+}
+
+#mainfooter{
+    background-color:black ;
+    color: white;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+/* here is the part of indexhtml */
+#htmlindexbtn{
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
 }
